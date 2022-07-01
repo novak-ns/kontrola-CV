@@ -18,10 +18,6 @@
   border-bottom: 3px double;
 }
 
-.home span {
-  font-size: 30px;
-}
-
 .home__name {
   font-size: 80px;
   font-weight: 700;
@@ -30,10 +26,6 @@
   border-bottom: 2px solid #fff;
   font-style: italic;
   color: #ff652f;
-}
-
-.home p {
-  font-size: 30px;
 }
 
 .home_icons {
@@ -124,7 +116,6 @@
 .nav_div_menu_item_link {
   margin-left: 20px;
   margin-right: 12px;
-  text-transform: uppercase;
 }
 
 .nav_div_menu_item_link:last-child {
@@ -172,7 +163,6 @@
   width: 70%;
   padding-bottom: 32px;
   font-size: 18px;
-  line-height: 1.5;
 }
 
 .about_jobs {
@@ -186,13 +176,6 @@
   border-bottom: 5px solid #ff652f;
 }
 
-.about_jobs span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 5px;
-}
-
 .about_jobs h1, .about_jobs h2, .about_jobs h3, .about_jobs h4, .about_jobs h5 {
   margin-bottom: 5px;
 }
@@ -200,14 +183,6 @@
 .about_jobs__job__date {
   font-size: 28px;
   color: #ff652f;
-}
-
-.about_jobs__job__firm {
-  font-size: 22px;
-}
-
-.about_jobs__job__title {
-  font-size: 19px;
 }
 
 .skills {
@@ -241,10 +216,6 @@
   text-align: center;
 }
 
-.skills_content_languages_heading {
-  font-size: 25px;
-}
-
 .skills_content_languages_image {
   height: 110px;
 }
@@ -267,10 +238,6 @@
   max-width: 220px;
   padding-left: 15px;
   text-align: center;
-}
-
-.skills_content_tools_heading {
-  font-size: 25px;
 }
 
 .skills_content_tools_image {
@@ -361,6 +328,23 @@
   opacity: 0.9;
 }
 
+.contact_me_mail_form_btn {
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact_me_mail_form_btn:hover {
+  background-color: #ff652f;
+}
+
 .contact_footer {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 101, 47, 0.4)), to(rgba(39, 39, 39, 0.1)));
   background: linear-gradient(to top, rgba(255, 101, 47, 0.4), rgba(39, 39, 39, 0.1));
@@ -434,7 +418,6 @@
   width: 400px;
   text-align: center;
   font-style: italic;
-  font-size: 20px;
 }
 
 .contact_footer_div_icons {
@@ -494,26 +477,6 @@
   height: 400px;
   margin-top: 75px;
   margin-bottom: 50px;
-}
-
-h1, h2 {
-  font-weight: 400;
-}
-
-h1 {
-  text-transform: uppercase;
-}
-
-h2 {
-  text-transform: uppercase;
-}
-
-.title {
-  color: #ff652f;
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 24px;
-  padding-top: 65px;
 }
 
 @media screen and (max-width: 1154px) {
@@ -634,15 +597,6 @@ h2 {
     left: 1%;
     max-width: 85%;
   }
-  .home span {
-    font-size: 25px;
-  }
-  .home__name {
-    font-size: 60px;
-  }
-  .home p {
-    font-size: 25px;
-  }
   .about_myself {
     font-size: 14px;
   }
@@ -659,16 +613,13 @@ h2 {
   .about_jobs h1, .about_jobs h2, .about_jobs h3, .about_jobs h4, .about_jobs h5 {
     margin-bottom: 3px;
   }
-  .about_jobs span {
-    margin-bottom: 3px;
-  }
   .about_jobs__job__date {
     font-size: 18px;
   }
-  .about_jobs__job__firm {
+  .about_jobs__job h3 {
     font-size: 16px;
   }
-  .about_jobs__job__title {
+  .about_jobs__job h5 {
     font-size: 12px;
   }
   .about_jobs__job p {
@@ -869,16 +820,13 @@ h2 {
   .about_jobs h1, .about_jobs h2, .about_jobs h3, .about_jobs h4, .about_jobs h5 {
     margin-bottom: 2px;
   }
-  .about_jobs span {
-    margin-bottom: 2px;
-  }
   .about_jobs__job__date {
     font-size: 14px;
   }
-  .about_jobs__job__firm {
+  .about_jobs__job h3 {
     font-size: 13px;
   }
-  .about_jobs__job__title {
+  .about_jobs__job h5 {
     font-size: 11px;
   }
   .about_jobs__job p {
@@ -1042,7 +990,7 @@ h2 {
     margin-bottom: 0px;
   }
   .contact_footer_div_menu_quote {
-    font-size: 13px;
+    font-size: 11px;
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -1051,7 +999,7 @@ h2 {
   .contact_footer_div_menu_quote h4 {
     margin-top: 10px;
     margin-bottom: 15px;
-    font-size: 12px;
+    font-size: 15px;
   }
   .contact_footer_div_icons {
     -webkit-box-orient: vertical;
@@ -1076,72 +1024,6 @@ h2 {
   }
 }
 
-.contact_me_mail_form_btn {
-  border: none;
-  width: 120px;
-  height: 40px;
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  border-radius: 5px;
-  cursor: pointer;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-.contact_me_mail_form_btn:hover {
-  background-color: #ff652f;
-}
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1151,7 +1033,11 @@ table {
 
 body {
   background-color: #272727;
-  color: white;
+  color: #fff;
+}
+
+h1, h2 {
+  font-weight: 400;
 }
 
 a {
@@ -1163,6 +1049,14 @@ a {
 
 a:hover {
   color: #ff652f;
+}
+
+.title {
+  color: #ff652f;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 24px;
+  padding-top: 65px;
 }
 
 html {

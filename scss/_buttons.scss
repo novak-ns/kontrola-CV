@@ -1,0 +1,22 @@
+.contact {
+    &_me {
+        &_mail {
+            &_form {
+                &_btn {
+                    border: none;
+                    width: 120px;
+                    height: 40px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    @include transition-ease;
+                    &:hover{
+                        background-color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}
