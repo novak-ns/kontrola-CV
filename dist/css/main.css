@@ -12,8 +12,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(39, 39, 39, 0.4)), to(rgba(39, 39, 39, 0.1))), url(images/home/main-picture.jpg);
-  background: linear-gradient(to top, rgba(39, 39, 39, 0.4), rgba(39, 39, 39, 0.1)), url(images/home/main-picture.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(39, 39, 39, 0.4)), to(rgba(39, 39, 39, 0.1))), url("../images/home/main-picture.jpg");
+  background: linear-gradient(to top, rgba(39, 39, 39, 0.4), rgba(39, 39, 39, 0.1)), url("../images/home/main-picture.jpg");
   background-size: cover;
   border-bottom: 3px double;
 }
@@ -333,6 +333,7 @@
 }
 
 .contact_me_mail_form_textbox {
+  font-family: 'Alegreya Sans SC';
   background: #ff652f;
   border: none;
   width: 350px;
@@ -349,6 +350,7 @@
 }
 
 .contact_me_mail_form_textarea {
+  font-family: 'Alegreya Sans SC';
   background: #ff652f;
   border: none;
   width: 720px;
